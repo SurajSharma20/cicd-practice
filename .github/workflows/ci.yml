@@ -1,0 +1,12 @@
+
+name: My First CI Pipeline
+
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Welcome
+        run: echo "My first CI pipeline is working!"

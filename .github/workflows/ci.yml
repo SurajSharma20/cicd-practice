@@ -1,4 +1,3 @@
-
 name: My First CI Pipeline
 
 on: push
@@ -10,3 +9,6 @@ jobs:
     steps:
       - name: Welcome
         run: echo "My first CI pipeline is working!"
+
+      - name: Check Node version
+        run: node --version
